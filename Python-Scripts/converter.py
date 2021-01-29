@@ -1,0 +1,7 @@
+pesos = input('Cuantos pesos argentinos quiere cambiar? ')
+pesos = float(pesos)
+valor_dolar  = input('Por favor ingrese la cotizacion del dia: ')
+dolares = pesos / float(valor_dolar)
+dolares = round(dolares, 2)
+dolares = str(dolares)
+print('Usted tiene ' + dolares + ' dolares')
